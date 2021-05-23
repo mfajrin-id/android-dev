@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.auth.LoginFragment">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="-42dp"
+        android:background="@drawable/bglogin"
+        android:contentDescription="@string/image"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="-36dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-42dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="112dp"
+            android:background="@drawable/ic_location"
+            android:contentDescription="@string/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.279"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoegold"
+            android:text="Selamat datang\ndi kaki lima"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <ImageView
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/shadow_btn"
+            app:layout_constraintEnd_toEndOf="@+id/email_login"
+            app:layout_constraintStart_toStartOf="@+id/email_login"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:contentDescription="@string/image" />
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp"
+            android:autofillHints="Email Address"
+            android:background="@drawable/text_field"
+            android:fontFamily="@font/segoegold"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/grey_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+        <ImageView
+            android:id="@+id/pass"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shadow_btn"
+            app:layout_constraintEnd_toEndOf="@+id/email_login"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/email_login"
+            app:layout_constraintTop_toBottomOf="@+id/email_login"
+            android:contentDescription="@string/image" />
+        <EditText
+            android:id="@+id/pass_login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:autofillHints="Email Address"
+            android:background="@drawable/text_field"
+            android:fontFamily="@font/segoegold"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/grey_color"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/email_login"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/email_login"
+            app:layout_constraintTop_toBottomOf="@+id/email_login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/lupa_kata_sandi"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/grey_color"
+            app:layout_constraintEnd_toEndOf="@+id/pass_login"
+            app:layout_constraintTop_toBottomOf="@+id/pass_login" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_btn"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/search_btn"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/pass_login"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="@+id/pass_login"
+            app:layout_constraintTop_toBottomOf="@+id/pass_login" />
+
+        <TextView
+            android:id="@+id/dont_have"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:text="@string/tidak_punya_akun"
+            android:textColor="@color/grey_black"
+            app:layout_constraintEnd_toStartOf="@+id/register_txt"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/login_btn"
+            app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+
+        <TextView
+            android:id="@+id/register_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:text="@string/daftar"
+            android:textColor="@color/grey_black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/login_btn"
+            app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/google_btn"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/google_btn"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/login_dengan_google"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/google"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/login_btn"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/login_btn"
+            app:layout_constraintTop_toBottomOf="@+id/login_btn"
+            android:drawableStart="@drawable/google"
+            android:paddingLeft="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
