@@ -8,13 +8,28 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_location"
+        android:contentDescription="@string/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/logohead"
-        android:contentDescription="@string/image"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/segoegold"
+        android:text="@string/kaki_keenam"
+        android:textColor="@color/grey_black"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -37,7 +52,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="@font/segoegold"
         android:gravity="center_horizontal"
-        android:text="Temukan makanan enak\n di sekitarmu"
+        android:text="@string/temukan_makanan_enak_n_di_sekitarmu"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"

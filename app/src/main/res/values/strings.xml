@@ -18,4 +18,17 @@
     <string name="silahkan_daftar">Silahkan Daftar</string>
     <string name="name">Name</string>
     <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="kaki_keenam">Kaki Keenam</string>
+    <string name="temukan_makanan_enak_n_di_sekitarmu">
+        <br>Temukan makanan enak</br>
+        <br>di sekitarmu</br>
+    </string>
+    <string name="temukan_buah_buahan_ndi_sekitarmu">
+        <br>Temukan buah-buahan</br>
+        <br>di sekitarmu</br>
+    </string>
+    <string name="temukan_market_place_nlainnya_di_sekitarmu">
+        <br>Temukan market place</br>
+        <br>lainnya di sekitarmu</br>
+    </string>
 </resources>
