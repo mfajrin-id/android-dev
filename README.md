@@ -19,4 +19,4 @@
 2. Firebase Cloud
 
 # Preview
-![kakikeenam](https://user-images.githubusercontent.com/20567517/119790225-557e9480-bf06-11eb-8db0-4b0b88457bd9.png)
+
