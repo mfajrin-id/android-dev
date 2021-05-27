@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/login_root"
     tools:context=".home.auth.LoginFragment">
 
     <ImageView
@@ -16,9 +17,7 @@
         android:background="@drawable/bglogin"
         android:contentDescription="@string/image"
         tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="-36dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="-42dp" />
+        tools:layout_editor_absoluteY="-36dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -41,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/segoegold"
-            android:text="Selamat datang\ndi kaki keenam"
+            android:text="@string/selamat_datang_di_kaki_keenam"
             android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
@@ -69,7 +68,6 @@
             android:hint="@string/email_address"
             android:inputType="textEmailAddress"
             android:paddingStart="16dp"
-            android:paddingLeft="16dp"
             android:paddingEnd="16dp"
             android:textColor="@color/grey_color"
             android:textSize="14sp"
@@ -99,7 +97,6 @@
             android:hint="@string/password"
             android:inputType="textPassword"
             android:paddingStart="16dp"
-            android:paddingLeft="16dp"
             android:paddingEnd="16dp"
             android:textColor="@color/grey_color"
             android:textSize="14sp"
@@ -109,6 +106,7 @@
             app:layout_constraintTop_toBottomOf="@+id/email_login" />
 
         <TextView
+            android:id="@+id/forget_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/segoeui"
@@ -140,7 +138,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="6dp"
-            android:layout_marginRight="6dp"
             android:text="@string/tidak_punya_akun"
             android:textColor="@color/grey_black"
             app:layout_constraintEnd_toStartOf="@+id/register_txt"
@@ -154,7 +151,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="36dp"
-            android:layout_marginRight="36dp"
             android:text="@string/daftar"
             android:textColor="@color/grey_black"
             android:textStyle="bold"
@@ -173,15 +169,13 @@
             android:textSize="13sp"
             android:textAllCaps="false"
             android:textStyle="bold"
-            android:drawableLeft="@drawable/google"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
             app:layout_constraintEnd_toEndOf="@+id/login_btn"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/login_btn"
             app:layout_constraintTop_toBottomOf="@+id/login_btn"
-            android:drawableStart="@drawable/google"
-            android:paddingLeft="16dp" />
+            android:drawableStart="@drawable/google" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>

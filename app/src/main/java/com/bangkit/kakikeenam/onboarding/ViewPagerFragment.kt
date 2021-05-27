@@ -1,15 +1,15 @@
-package com.bangkit.kakilima.onboarding
+package com.bangkit.kakikeenam.onboarding
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
-import com.bangkit.kakilima.R
-import com.bangkit.kakilima.onboarding.screen.FirstScreenFragment
-import com.bangkit.kakilima.onboarding.screen.SecondScreenFragment
-import com.bangkit.kakilima.onboarding.screen.ThirdScreenFragment
+import com.bangkit.kakikeenam.R
+import com.bangkit.kakikeenam.onboarding.screen.FirstScreenFragment
+import com.bangkit.kakikeenam.onboarding.screen.SecondScreenFragment
+import com.bangkit.kakikeenam.onboarding.screen.ThirdScreenFragment
 
 
 class ViewPagerFragment : Fragment() {

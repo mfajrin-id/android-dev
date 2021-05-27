@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name">Kaki Lima</string>
-  
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Kaki Keenam</string>
+
     <string name="image">image</string>
     <string name="skip">Skip</string>
     <string name="cari">Cari</string>
@@ -31,4 +30,28 @@
         <br>Temukan market place</br>
         <br>lainnya di sekitarmu</br>
     </string>
+    <string name="percarian">Percarian</string>
+    <string name="rekomendasi">Rekomendasi</string>
+    <string name="sayuran">Sayuran</string>
+    <string name="pasar">Pasar</string>
+    <string name="makanan_populer">Makanan Populer</string>
+    <string name="all">All</string>
+
+    <!--    check register field-->
+    <string name="err_name">Mohon isi nama</string>
+    <string name="err_email">Mohon isi email</string>
+    <string name="err_pass">Mohon isi password</string>
+    <string name="err_pass_confirmation">Mohon isi konfirmasi password</string>
+    <string name="err_agreement">Please agree terms and condition</string>
+    <string name="success">Registrasi berhasil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="please_wait">Please Wait&#8230;</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kirim">Kirim</string>
+    <string name="lupa_password">Lupa Password?</string>
+    <string name="email_send">Email berhasil dikirim untuk reset password</string>
+    <string name="selamat_datang_di_kaki_keenam">Selamat datang \ndi kaki keenam</string>
+    <string name="dimana_anda_ingin_makan">Dimana anda ingin \nmakan?</string>
+    <string name="silahkan">Silahkan masukkan email anda \nuntuk mereset password anda!</string>
 </resources>

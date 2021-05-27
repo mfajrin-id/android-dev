@@ -1,16 +1,16 @@
-package com.bangkit.kakilima.onboarding.screen
+package com.bangkit.kakikeenam.onboarding.screen
 
 import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import androidx.appcompat.widget.AppCompatButton
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
-import com.bangkit.kakilima.R
+import com.bangkit.kakikeenam.R
 
 class  ThirdScreenFragment : Fragment() {
 

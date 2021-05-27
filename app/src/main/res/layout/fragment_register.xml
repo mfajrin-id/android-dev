@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/register_root"
     tools:context=".home.auth.RegisterFragment">
 
     <ImageView
@@ -14,8 +15,6 @@
         android:layout_marginStart="-26dp"
         android:layout_marginBottom="-68dp"
         android:background="@drawable/bglogin"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="-26dp"
         android:contentDescription="@string/image" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -31,7 +30,6 @@
             android:background="@drawable/ic_back_arrow"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginLeft="16dp"
             android:contentDescription="@string/image" />
 
         <ImageView
@@ -99,7 +97,6 @@
             android:hint="@string/name"
             android:inputType="text"
             android:paddingStart="16dp"
-            android:paddingLeft="16dp"
             android:paddingEnd="16dp"
             android:textColor="@color/grey_color"
             android:textSize="14sp"
@@ -118,7 +115,6 @@
             android:hint="@string/email_address"
             android:inputType="textEmailAddress"
             android:paddingStart="16dp"
-            android:paddingLeft="16dp"
             android:paddingEnd="16dp"
             android:textColor="@color/grey_color"
             android:textSize="14sp"
@@ -137,7 +133,6 @@
             android:hint="@string/password"
             android:inputType="textPassword"
             android:paddingStart="16dp"
-            android:paddingLeft="16dp"
             android:paddingEnd="16dp"
             android:textColor="@color/grey_color"
             android:textSize="14sp"
@@ -161,14 +156,12 @@
             app:layout_constraintStart_toStartOf="@+id/pass_register"
             app:layout_constraintTop_toBottomOf="@+id/pass_register" />
 
-
         <TextView
             android:id="@+id/dont_have"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="6dp"
-            android:layout_marginRight="6dp"
             android:text="@string/sudah_punya_akun"
             android:textColor="@color/grey_black"
             app:layout_constraintEnd_toStartOf="@+id/login_txt"
@@ -182,7 +175,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="36dp"
-            android:layout_marginRight="36dp"
             android:text="@string/login"
             android:textColor="@color/grey_black"
             android:textStyle="bold"

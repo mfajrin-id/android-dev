@@ -13,4 +13,8 @@
     <color name="search_btn">#1EA6FC</color>
     <color name="grey_color">#777777</color>
     <color name="grey_black">#2A2A2A</color>
+    <color name="menu_btn">#FD904E</color>
+
+    <color name="red_err">#F32828</color>
+    <color name="green_success">#7FDA58</color>
 </resources>

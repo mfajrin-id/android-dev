@@ -1,4 +1,4 @@
-package com.bangkit.kakilima.onboarding
+package com.bangkit.kakikeenam.onboarding
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
