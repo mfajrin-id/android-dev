@@ -27,5 +27,6 @@ class DashboardFragment : Fragment() {
         binding.favButton.setOnClickListener {
             findNavController().navigate(R.id.action_dashboardFragment_to_homeFragment)
         }
+        binding.bottomNav.background = null
     }
 }
